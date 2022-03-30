@@ -30,6 +30,7 @@ body{
 }
 
 .header nav{
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -45,8 +46,16 @@ body{
     padding: 0 5px;
 }
 
+.header ul li:hover{
+    background-color: var(--bckgrd);
+}
+
 .header a{
     color: var(--bckgrd);
+}
+
+.header a:hover{
+    color: var(--headers);
 }
 
 h1{
@@ -96,20 +105,30 @@ main p{
     margin-left: 2%;
 }
 
-.contactme{
+#work a{
+    color: var(--accent);
+    background-color: var(--text);
+}
+
+#work img{
+    border: 5px solid var(--text);
+}
+
+#contactme{
     text-align: center;
     display: flex;
     align-items: center;
 }
 
-.contactme ul{
+#contactme ul{
     font-size: 20px;
 }
 
-.contactme ul li{
+#contactme ul li{
     padding: 0 5px;
 }
 
-.contactme a{
+#contactme a{
     color: var(--headers);
 }
+
